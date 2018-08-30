@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroesListComponent } from './heroes-list/heroes-list.component';
 import { HeroesDetailsComponent } from './heroes-details/heroes-details.component';
+import { AppRouterModule } from './/app-router.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HeroesDetailsComponent } from './heroes-details/heroes-details.componen
     HeroesDetailsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
