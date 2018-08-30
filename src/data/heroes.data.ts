@@ -1,6 +1,6 @@
 import { HeroType } from "../types/hero.type";
 
-const HEROES: HeroType[] = [
+export const HEROES: HeroType[] = [
     {
         id: 1,
         name: "Alphaman",
