@@ -1,3 +1,18 @@
-<p>
-  heroes-details works!
-</p>
+<div *ngIf="hero">
+  <table border="1">
+    <tr>
+        <th>Id</th>
+        <td>{{hero.id}}</td>
+      </tr>
+    <tr>
+      <th>Nom</th>
+      <td>{{hero.name}}</td>
+    </tr>
+    <tr>
+      <th>Color</th>
+      <td>{{hero.color}}</td>
+    </tr>
+  </table>
+</div>
+
+<button (click)="goBack()">Back</button>
