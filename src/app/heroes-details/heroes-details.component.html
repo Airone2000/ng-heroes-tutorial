@@ -6,7 +6,7 @@
       </tr>
     <tr>
       <th>Nom</th>
-      <td>{{hero.name}}</td>
+      <td><input [(ngModel)]="hero.name" (change)="onChange()" /></td>
     </tr>
     <tr>
       <th>Color</th>
