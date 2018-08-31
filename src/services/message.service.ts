@@ -9,7 +9,7 @@ export class MessageService
 
     addMessage(message): void
     {
-        this.messages.push(message);
+        this.messages.unshift(message);
     }
 
     clearMessages(): void
